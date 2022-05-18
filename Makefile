@@ -38,6 +38,11 @@ configure:
 	sudo apt install -y binutils-multiarch libstdc++6:i386 libgcc1:i386 \
 	zlib1g:i386 libncurses5:i386 libcanberra-pulse:i386 libldap-2.4-2:i386 \
 	libpulse0:i386 libxml2:i386
+	# Custom GNOME shortcuts
+	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up \
+	"['<Super>Page_Up', '<Control><Alt>Up', '<Control><Alt>k']"
+	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down \
+	"['<Super>Page_Down', '<Control><Alt>Down', '<Control><Alt>j']"
 	# Autoremove
 	sudo apt autoremove -y
 

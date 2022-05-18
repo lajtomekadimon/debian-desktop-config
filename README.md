@@ -63,4 +63,8 @@ Configure these programs:
 - Telegram Desktop
 - LibreOffice
 
+Create custom GNOME shortcuts:
+
+- Open terminal: `gnome-terminal` (Ctrl+Alt+T)
+
 Reboot, and ready to go!
