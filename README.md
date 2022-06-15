@@ -42,6 +42,7 @@ Install fonts from files.
 Reboot, and after that, install manually:
 
 - VS Code (sync config)
+- DBeaver
 
 Configure Firefox properly and change this in `about:config`:
 
